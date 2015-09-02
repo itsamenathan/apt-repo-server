@@ -19,5 +19,5 @@ $ cp some-random.deb  data
 
 Update /etc/apt/sources.list
 ```
-$ sudo echo "deb http://127.0.0.1:10000 trusty main" >> /etc/apt/sources.list
+$ sudo echo "deb http://127.0.0.1 ./" >> /etc/apt/sources.list
 ```
